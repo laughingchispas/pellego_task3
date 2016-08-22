@@ -7,29 +7,59 @@
     <title>pellego task 3</title>
 
     <link rel="stylesheet" type="text/css" href="styles/main.css"/>
-    <link rel="stylesheet" type="text/css" href="fonts/font.css"/>
 
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/angularApp.js"></script>
 </head>
 
-<body ng-controller="albaController">
+<body ng-controller="taskThreeController">
 
+<!--
 <header>
     <div class="nav-bar" data-spy="affix" data-offset-top="121">
-        <img class="logo" src="assets/scandi2.png">
+        <img class="logo">
         <div class="nav-buttons">
-            <a ng-href="{{}}.html" class="navLinks" ng-repeat="key in navCards">
-                {{}}
-            </a>
+            <a ng-repeat="key in navCards"></a>
         </div>
     </div>
-</header>
+</header> -->
 
 
 
 <div class="middle">
-
+    <div class="table-container">
+        <div class="title-of-table row-in-table">
+            <div class="column-one">
+                Updated July 25
+            </div>
+            <div class="column-two>">
+                Flip Profit
+            </div>
+            <div column-three>
+                Rent As-Is
+            </div>
+            <div class="column-four">
+                Rental w/ Rehab
+            </div>
+        </div>
+        <div class="content-of-table" ng-repeat="listing in listings">
+            <div class="row-in-table">
+                <div class="column-one">
+                    <img ng-src="{{listing.thumbnail_url}}">
+                    {{listing.city}}
+                </div>
+                <div class="column-two>">
+                    {{listing.city}}
+                </div>
+                <div column-three>
+                    {{listing.city}}
+                </div>
+                <div class="column-four">
+                    {{listing.city}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 

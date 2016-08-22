@@ -1,0 +1,54 @@
+/******* COLOR VARIABLES *********/
+
+$base-text: #444444;            /* salmon */
+
+
+body {
+    color: $base-text;
+    }
+
+.middle {
+    background-color: pink;
+
+    .table-container {
+        background-color: white;
+        width: 600px;
+        margin: 0 auto;
+        padding: 64px 0 0 0;
+        text-align: left;
+
+        .row-in-table {
+            height: 64px;
+            display: flex;
+            border-style: solid;
+            border-width: 0 1px 1px 1px;
+            border-color: black;
+
+            .column-one {
+                flex-basis: 40%;
+
+                img {
+                    height: 64px;
+                    }
+            }
+
+            .column-two {
+                flex-basis: 20%;
+            }
+
+            .column-three {
+                flex-basis: 20%;
+            }
+
+            .column-four {
+                flex-basis: 20%;
+            }
+        }
+
+        .title-of-table {
+            border-style: solid;
+            border-width: 0 0 1px 0;
+            height: auto;
+        }
+    }
+}

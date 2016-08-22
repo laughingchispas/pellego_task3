@@ -1,0 +1,35 @@
+/******* COLOR VARIABLES *********/
+/* salmon */
+body {
+  color: #444444; }
+
+.middle {
+  background-color: pink; }
+  .middle .table-container {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 64px 0 0 0;
+    text-align: left; }
+    .middle .table-container .row-in-table {
+      height: 64px;
+      display: flex;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-color: black; }
+      .middle .table-container .row-in-table .column-one {
+        flex-basis: 40%; }
+        .middle .table-container .row-in-table .column-one img {
+          height: 64px; }
+      .middle .table-container .row-in-table .column-two {
+        flex-basis: 20%; }
+      .middle .table-container .row-in-table .column-three {
+        flex-basis: 20%; }
+      .middle .table-container .row-in-table .column-four {
+        flex-basis: 20%; }
+    .middle .table-container .title-of-table {
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      height: auto; }
+
+/*# sourceMappingURL=main.css.map */
