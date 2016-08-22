@@ -1,0 +1,698 @@
+[
+[{
+	"_id": 170971,
+	"city": "CLYDE HILL",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -4210,
+		"brrr_financed_cashin_initial": 591222,
+		"brrr_financed_cashin_net": 302972,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 148342,
+		"flip_financed_cashin_initial": 590572,
+		"flip_financed_profit": 6262,
+		"hold_cash_cashflow": 4040,
+		"hold_cash_cashin_net": 1509600,
+		"hold_financed_cashflow": 4040,
+		"hold_financed_cashin_net": 1509600
+	},
+	"listing": {
+		"listing_date": "2016-08-22T04:43:53+00:00",
+		"listing_number": "916595",
+		"listing_price": 1480000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-22T04:43:53+00:00",
+		"update_reason": "Back On Market"
+	},
+	"name": "2261 95th ave ne",
+	"neighborhood": "Clyde Hill",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/916595/916595_0_thumb.jpg",
+	"zip_code": 98004
+}, {
+	"_id": 168117,
+	"city": "BURIEN",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -901,
+		"brrr_financed_cashin_initial": 201345,
+		"brrr_financed_cashin_net": 100545,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 16865,
+		"flip_financed_cashin_initial": 200695,
+		"flip_financed_profit": -11863,
+		"hold_cash_cashflow": 1541,
+		"hold_cash_cashin_net": 406980,
+		"hold_financed_cashflow": 1541,
+		"hold_financed_cashin_net": 406980
+	},
+	"listing": {
+		"listing_date": "2016-08-22T03:52:58+00:00",
+		"listing_number": "1004953",
+		"listing_price": 399000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-22T03:52:58+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "1914 sw 164th st",
+	"neighborhood": "Gregory Heights",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1004953/1004953_0_thumb.jpg",
+	"zip_code": 98166
+}, {
+	"_id": 168153,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -21765,
+		"brrr_financed_cashin_initial": 979091,
+		"brrr_financed_cashin_net": -2150884,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 3460975,
+		"flip_financed_cashin_initial": 978441,
+		"flip_financed_profit": 3223087,
+		"hold_cash_cashflow": 11688,
+		"hold_cash_cashin_net": 2527560,
+		"hold_financed_cashflow": 11688,
+		"hold_financed_cashin_net": 2527560
+	},
+	"listing": {
+		"listing_date": "2016-08-21T18:25:04+00:00",
+		"listing_number": "1003889",
+		"listing_price": 2478000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-21T18:25:04+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "2706 boyer ave e",
+	"neighborhood": "Portage Bay",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1003889/1003889_0_thumb.jpg",
+	"zip_code": 98102
+}, {
+	"_id": 145690,
+	"city": "BELLEVUE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -5419,
+		"brrr_financed_cashin_initial": 657700,
+		"brrr_financed_cashin_net": 429325,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 66130,
+		"flip_financed_cashin_initial": 657050,
+		"flip_financed_profit": -96590,
+		"hold_cash_cashflow": 3295,
+		"hold_cash_cashin_net": 1728900,
+		"hold_financed_cashflow": 3295,
+		"hold_financed_cashin_net": 1728900
+	},
+	"listing": {
+		"listing_date": "2016-08-21T17:05:05+00:00",
+		"listing_number": "1018135",
+		"listing_price": 1695000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-21T17:05:05+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "13470 ne 28 st",
+	"neighborhood": "Bridle Trails",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1018135/1018135_0_thumb.jpg",
+	"zip_code": 98005
+}, {
+	"_id": 170936,
+	"city": "EVERETT",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -68,
+		"brrr_financed_cashin_initial": 104218,
+		"brrr_financed_cashin_net": 69818,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 1438,
+		"flip_financed_cashin_initial": 103568,
+		"flip_financed_profit": -17606,
+		"hold_cash_cashflow": 1349,
+		"hold_cash_cashin_net": 269790,
+		"hold_financed_cashflow": 1349,
+		"hold_financed_cashin_net": 269790
+	},
+	"listing": {
+		"listing_date": "2016-08-21T14:23:46+00:00",
+		"listing_number": "1014158",
+		"listing_price": 264500,
+		"listing_type": "Standard",
+		"update_date": "2016-08-21T14:23:46+00:00",
+		"update_reason": "Back On Market"
+	},
+	"name": "3609 26th st",
+	"neighborhood": "Historic N Everett",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1014158/1014158_0_thumb.jpg",
+	"zip_code": 98201
+}, {
+	"_id": 170884,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -1156,
+		"brrr_financed_cashin_initial": 176465,
+		"brrr_financed_cashin_net": -10535,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 131871,
+		"flip_financed_cashin_initial": 175815,
+		"flip_financed_profit": 107391,
+		"hold_cash_cashflow": 1651,
+		"hold_cash_cashin_net": 346800,
+		"hold_financed_cashflow": 1651,
+		"hold_financed_cashin_net": 346800
+	},
+	"listing": {
+		"listing_date": "2016-08-21T02:55:17+00:00",
+		"listing_number": "1018071",
+		"listing_price": 340000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-21T02:55:17+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "4073 ne 109th st",
+	"neighborhood": "Seattle",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1018071/1018071_0_thumb.jpg",
+	"zip_code": 98125
+}, {
+	"_id": 104061,
+	"city": "BELLEVUE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -4566,
+		"brrr_financed_cashin_initial": 593440,
+		"brrr_financed_cashin_net": 423315,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 7195,
+		"flip_financed_cashin_initial": 592790,
+		"flip_financed_profit": -136325,
+		"hold_cash_cashflow": 2896,
+		"hold_cash_cashin_net": 1524900,
+		"hold_financed_cashflow": 2896,
+		"hold_financed_cashin_net": 1524900
+	},
+	"listing": {
+		"listing_date": "2016-08-20T23:48:12+00:00",
+		"listing_number": "909607",
+		"listing_price": 1495000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T23:48:12+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "6053 153rd ave se",
+	"neighborhood": "The Summit",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/909607/909607_0.jpg",
+	"zip_code": 98006
+}, {
+	"_id": 170930,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -853,
+		"brrr_financed_cashin_initial": 215780,
+		"brrr_financed_cashin_net": 93905,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 62322,
+		"flip_financed_cashin_initial": 215130,
+		"flip_financed_profit": 20322,
+		"hold_cash_cashflow": 2277,
+		"hold_cash_cashin_net": 535500,
+		"hold_financed_cashflow": 2277,
+		"hold_financed_cashin_net": 535500
+	},
+	"listing": {
+		"listing_date": "2016-08-20T17:17:41+00:00",
+		"listing_number": "1009380",
+		"listing_price": 525000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T17:17:41+00:00",
+		"update_reason": "Back On Market"
+	},
+	"name": "8258 interlake ave n",
+	"neighborhood": "Green Lake",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1009380/1009380_0_thumb.jpg",
+	"zip_code": 98103
+}, {
+	"_id": 170824,
+	"city": "BOTHELL",
+	"constraints_passed": 7,
+	"financials": {
+		"brrr_financed_cashflow": -674,
+		"brrr_financed_cashin_initial": 123963,
+		"brrr_financed_cashin_net": 84548,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 3447,
+		"flip_financed_cashin_initial": 123313,
+		"flip_financed_profit": -20311,
+		"hold_cash_cashflow": 994,
+		"hold_cash_cashin_net": 336549,
+		"hold_financed_cashflow": 994,
+		"hold_financed_cashin_net": 336549
+	},
+	"listing": {
+		"listing_date": "2016-08-20T16:54:12+00:00",
+		"listing_number": "1017971",
+		"listing_price": 329950,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T16:54:12+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "706 228th st sw m101",
+	"neighborhood": "Canyon Park",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1017971/1017971_0_thumb.jpg",
+	"zip_code": 98021
+}, {
+	"_id": 148299,
+	"city": "Everett",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -652,
+		"brrr_financed_cashin_initial": 143277,
+		"brrr_financed_cashin_net": 45827,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 38404,
+		"flip_financed_cashin_initial": 142627,
+		"flip_financed_profit": 19432,
+		"hold_cash_cashflow": 1226,
+		"hold_cash_cashin_net": 268770,
+		"hold_financed_cashflow": 1226,
+		"hold_financed_cashin_net": 268770
+	},
+	"listing": {
+		"listing_date": "2016-08-20T15:54:18+00:00",
+		"listing_number": "945134",
+		"listing_price": 263500,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T15:54:18+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "316 117th st se",
+	"neighborhood": "Silver Lake",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/945134/945134_0_thumb.jpg",
+	"zip_code": 98208
+}, {
+	"_id": 162970,
+	"city": "ARLINGTON",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -1425,
+		"brrr_financed_cashin_initial": 215918,
+		"brrr_financed_cashin_net": 119743,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 24657,
+		"flip_financed_cashin_initial": 215268,
+		"flip_financed_profit": -15263,
+		"hold_cash_cashflow": 1490,
+		"hold_cash_cashin_net": 508980,
+		"hold_financed_cashflow": 1490,
+		"hold_financed_cashin_net": 508980
+	},
+	"listing": {
+		"listing_date": "2016-08-20T14:37:35+00:00",
+		"listing_number": "973260",
+		"listing_price": 499000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T14:37:35+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "10128 132nd st ne",
+	"neighborhood": "Arlington",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/973260/973260_0_thumb.jpg",
+	"zip_code": 98223
+}, {
+	"_id": 170556,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -402,
+		"brrr_financed_cashin_initial": 137611,
+		"brrr_financed_cashin_net": -22514,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 103464,
+		"flip_financed_cashin_initial": 136961,
+		"flip_financed_profit": 89424,
+		"hold_cash_cashflow": 1686,
+		"hold_cash_cashin_net": 198900,
+		"hold_financed_cashflow": 1686,
+		"hold_financed_cashin_net": 198900
+	},
+	"listing": {
+		"listing_date": "2016-08-20T08:00:42+00:00",
+		"listing_number": "915784",
+		"listing_price": 195000,
+		"listing_type": "Short Sale",
+		"update_date": "2016-08-20T08:00:42+00:00",
+		"update_reason": "Back On Market"
+	},
+	"name": "7062 17th ave sw",
+	"neighborhood": "Highland Park",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/915784/915784_0_thumb.jpg",
+	"zip_code": 98106
+}, {
+	"_id": 170657,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -8691,
+		"brrr_financed_cashin_initial": 934422,
+		"brrr_financed_cashin_net": 411797,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 329909,
+		"flip_financed_cashin_initial": 933772,
+		"flip_financed_profit": 99989,
+		"hold_cash_cashflow": 5237,
+		"hold_cash_cashin_net": 2442900,
+		"hold_financed_cashflow": 5237,
+		"hold_financed_cashin_net": 2442900
+	},
+	"listing": {
+		"listing_date": "2016-08-20T05:09:25+00:00",
+		"listing_number": "1012761",
+		"listing_price": 2395000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T05:09:25+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "412 34th ave",
+	"neighborhood": "Madrona",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1012761/1012761_0_thumb.jpg",
+	"zip_code": 98122
+}, {
+	"_id": 165217,
+	"city": "SNOHOMISH",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -552,
+		"brrr_financed_cashin_initial": 189955,
+		"brrr_financed_cashin_net": 125030,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 4035,
+		"flip_financed_cashin_initial": 189305,
+		"flip_financed_profit": -30453,
+		"hold_cash_cashflow": 1937,
+		"hold_cash_cashin_net": 488580,
+		"hold_financed_cashflow": 1937,
+		"hold_financed_cashin_net": 488580
+	},
+	"listing": {
+		"listing_date": "2016-08-20T02:57:42+00:00",
+		"listing_number": "1012915",
+		"listing_price": 479000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T02:57:42+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "8013 206th st se",
+	"neighborhood": "Maltby",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1012915/1012915_0_thumb.jpg",
+	"zip_code": 98296
+}, {
+	"_id": 170513,
+	"city": "BURIEN",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -375,
+		"brrr_financed_cashin_initial": 121866,
+		"brrr_financed_cashin_net": 70441,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 10260,
+		"flip_financed_cashin_initial": 121216,
+		"flip_financed_profit": -8876,
+		"hold_cash_cashflow": 1343,
+		"hold_cash_cashin_net": 304980,
+		"hold_financed_cashflow": 1343,
+		"hold_financed_cashin_net": 304980
+	},
+	"listing": {
+		"listing_date": "2016-08-20T01:21:57+00:00",
+		"listing_number": "1016229",
+		"listing_price": 299000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T01:21:57+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "13454 occidental ave s",
+	"neighborhood": "Burien",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1016229/1016229_0_thumb.jpg",
+	"zip_code": 98168
+}, {
+	"_id": 134755,
+	"city": "TUKWILA",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -260,
+		"brrr_financed_cashin_initial": 109665,
+		"brrr_financed_cashin_net": 56165,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 10143,
+		"flip_financed_cashin_initial": 109015,
+		"flip_financed_profit": -4897,
+		"hold_cash_cashflow": 1204,
+		"hold_cash_cashin_net": 239700,
+		"hold_financed_cashflow": 1204,
+		"hold_financed_cashin_net": 239700
+	},
+	"listing": {
+		"listing_date": "2016-08-20T01:00:12+00:00",
+		"listing_number": "962425",
+		"listing_price": 235000,
+		"listing_type": "Bank Owned",
+		"update_date": "2016-08-20T01:00:12+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "4736 s 164th st",
+	"neighborhood": "Tukwila",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/962425/962425_0_thumb.jpg",
+	"zip_code": 98188
+}, {
+	"_id": 170502,
+	"city": "KIRKLAND",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -1804,
+		"brrr_financed_cashin_initial": 279533,
+		"brrr_financed_cashin_net": 162033,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 37013,
+		"flip_financed_cashin_initial": 278883,
+		"flip_financed_profit": -15187,
+		"hold_cash_cashflow": 2079,
+		"hold_cash_cashin_net": 739500,
+		"hold_financed_cashflow": 2079,
+		"hold_financed_cashin_net": 739500
+	},
+	"listing": {
+		"listing_date": "2016-08-20T00:26:54+00:00",
+		"listing_number": "1017868",
+		"listing_price": 725000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T00:26:54+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "5924 114th ave ne",
+	"neighborhood": "Houghton",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1017868/1017868_0_thumb.jpg",
+	"zip_code": 98033
+}, {
+	"_id": 165756,
+	"city": "MERCER ISLAND",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -4852,
+		"brrr_financed_cashin_initial": 646706,
+		"brrr_financed_cashin_net": 423406,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 72040,
+		"flip_financed_cashin_initial": 646056,
+		"flip_financed_profit": -91064,
+		"hold_cash_cashflow": 3844,
+		"hold_cash_cashin_net": 1732980,
+		"hold_financed_cashflow": 3844,
+		"hold_financed_cashin_net": 1732980
+	},
+	"listing": {
+		"listing_date": "2016-08-20T00:17:56+00:00",
+		"listing_number": "978003",
+		"listing_price": 1699000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-20T00:17:56+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "4705 e mercer wy",
+	"neighborhood": "East Mercer",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/978003/978003_0_thumb.jpg",
+	"zip_code": 98040
+}, {
+	"_id": 170486,
+	"city": "CARNATION",
+	"constraints_passed": 7,
+	"financials": {
+		"brrr_financed_cashflow": -210,
+		"brrr_financed_cashin_initial": 110740,
+		"brrr_financed_cashin_net": 18365,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 49582,
+		"flip_financed_cashin_initial": 110090,
+		"flip_financed_profit": 35182,
+		"hold_cash_cashflow": 1360,
+		"hold_cash_cashin_net": 204000,
+		"hold_financed_cashflow": 1360,
+		"hold_financed_cashin_net": 204000
+	},
+	"listing": {
+		"listing_date": "2016-08-19T23:21:36+00:00",
+		"listing_number": "975506",
+		"listing_price": 200000,
+		"listing_type": "Bank Owned",
+		"update_date": "2016-08-19T23:21:36+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "5504 318th ave ne",
+	"neighborhood": "Carnation",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/975506/975506_0_thumb.jpg",
+	"zip_code": 98014
+}, {
+	"_id": 170477,
+	"city": "DES MOINES",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -473,
+		"brrr_financed_cashin_initial": 141840,
+		"brrr_financed_cashin_net": 46215,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 49978,
+		"flip_financed_cashin_initial": 141190,
+		"flip_financed_profit": 27298,
+		"hold_cash_cashflow": 1619,
+		"hold_cash_cashin_net": 321300,
+		"hold_financed_cashflow": 1619,
+		"hold_financed_cashin_net": 321300
+	},
+	"listing": {
+		"listing_date": "2016-08-19T23:17:27+00:00",
+		"listing_number": "1015333",
+		"listing_price": 315000,
+		"listing_type": "Bank Owned",
+		"update_date": "2016-08-19T23:17:27+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "21230 4th place s",
+	"neighborhood": "North Hill",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1015333/1015333_0_thumb.jpg",
+	"zip_code": 98198
+}, {
+	"_id": 170573,
+	"city": "KENT",
+	"constraints_passed": 7,
+	"financials": {
+		"brrr_financed_cashflow": -111,
+		"brrr_financed_cashin_initial": 80992,
+		"brrr_financed_cashin_net": 27867,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 10562,
+		"flip_financed_cashin_initial": 80342,
+		"flip_financed_profit": 3202,
+		"hold_cash_cashflow": 799,
+		"hold_cash_cashin_net": 117300,
+		"hold_financed_cashflow": 799,
+		"hold_financed_cashin_net": 117300
+	},
+	"listing": {
+		"listing_date": "2016-08-19T23:00:19+00:00",
+		"listing_number": "957673",
+		"listing_price": 115000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-19T23:00:19+00:00",
+		"update_reason": "Back On Market"
+	},
+	"name": "22709 114th place se",
+	"neighborhood": "East Hill",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/957673/957673_0_thumb.jpg",
+	"zip_code": 98031
+}, {
+	"_id": 133938,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -1584,
+		"brrr_financed_cashin_initial": 312767,
+		"brrr_financed_cashin_net": 224767,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 1651,
+		"flip_financed_cashin_initial": 312117,
+		"flip_financed_profit": -60629,
+		"hold_cash_cashflow": 2727,
+		"hold_cash_cashin_net": 882300,
+		"hold_financed_cashflow": 2727,
+		"hold_financed_cashin_net": 882300
+	},
+	"listing": {
+		"listing_date": "2016-08-19T22:09:18+00:00",
+		"listing_number": "960437",
+		"listing_price": 865000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-19T22:09:18+00:00",
+		"update_reason": "Price Decrease"
+	},
+	"name": "3032 38th ave sw",
+	"neighborhood": "Belvidere",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/960437/960437_0_thumb.jpg",
+	"zip_code": 98126
+}, {
+	"_id": 170696,
+	"city": "SEATTLE",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -1465,
+		"brrr_financed_cashin_initial": 273556,
+		"brrr_financed_cashin_net": 123631,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 66711,
+		"flip_financed_cashin_initial": 272906,
+		"flip_financed_profit": 15591,
+		"hold_cash_cashflow": 2306,
+		"hold_cash_cashin_net": 651780,
+		"hold_financed_cashflow": 2306,
+		"hold_financed_cashin_net": 651780
+	},
+	"listing": {
+		"listing_date": "2016-08-19T21:53:15+00:00",
+		"listing_number": "1016699",
+		"listing_price": 639000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-19T21:53:15+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "12709 palatine ave n",
+	"neighborhood": "Broadview",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1016699/1016699_0_thumb.jpg",
+	"zip_code": 98177
+}, {
+	"_id": 170732,
+	"city": "BURIEN",
+	"constraints_passed": 8,
+	"financials": {
+		"brrr_financed_cashflow": -370,
+		"brrr_financed_cashin_initial": 119542,
+		"brrr_financed_cashin_net": 11942,
+		"flip_cash_cashin_initial": null,
+		"flip_cash_profit": 54817,
+		"flip_financed_cashin_initial": 118892,
+		"flip_financed_profit": 42785,
+		"hold_cash_cashflow": 1292,
+		"hold_cash_cashin_net": 191760,
+		"hold_financed_cashflow": 1292,
+		"hold_financed_cashin_net": 191760
+	},
+	"listing": {
+		"listing_date": "2016-08-19T21:46:15+00:00",
+		"listing_number": "1015859",
+		"listing_price": 188000,
+		"listing_type": "Standard",
+		"update_date": "2016-08-19T21:46:15+00:00",
+		"update_reason": "Listed"
+	},
+	"name": "13417 6th ave sw",
+	"neighborhood": "North Burien",
+	"thumbnail_url": "https://d19q7x29rbin9r.cloudfront.net/properties/nwmls/1015859/1015859_0_thumb.jpg",
+	"zip_code": 98146
+}]
