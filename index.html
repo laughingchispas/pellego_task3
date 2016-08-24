@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" type="text/css" href="styles/main.css"/>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/angularApp.js"></script>
 </head>
@@ -29,33 +32,39 @@
 <div class="middle">
     <div class="table-container">
         <div class="title-of-table row-in-table">
-            <div class="column-one">
-                Updated July 25
+            <div class="column-one title-table">
+                Updated {{update_date}}
             </div>
-            <div class="column-two>">
+            <div class="column-two large-content-table">
                 Flip Profit
             </div>
-            <div column-three>
-                Rent As-Is
+            <div class="column-three large-content-table">
+                Rental As-Is
             </div>
-            <div class="column-four">
+            <div class="column-four large-content-table">
                 Rental w/ Rehab
             </div>
         </div>
         <div class="content-of-table" ng-repeat="listing in listings">
             <div class="row-in-table">
                 <div class="column-one">
-                    <img ng-src="{{listing.thumbnail_url}}">
-                    {{listing.city}}
+                    <div class="property_thumbnail" ng-style="{'background-image': 'url(' + listing.thumbnail_url + ')'}">
+                    </div>
+                    <div class="property-info-main">
+                        <div class="title-table"> {{listing.name}} </div>
+                        <div class="large-content-table number">$ {{listing.listing.listing_price}} </div>
+                        <div class="medium-content-table">{{listing.listing.update_reason}}</div>
+                    </div>
                 </div>
-                <div class="column-two>">
-                    {{listing.city}}
+                <div class="column-two">
+                    <div class="number title-table">$ {{listing.financials[strategy]}} </div>
                 </div>
-                <div column-three>
-                    {{listing.city}}
+                <div class="column-three">
+                    <div class="number title-table">$ {{listing.financials.hold_financed_cashflow}} </div>
                 </div>
                 <div class="column-four">
-                    {{listing.city}}
+                    <div class="number title-table">$ {{listing.financials.brrr_financed_cashflow}} </div>
+                    {{whatever.brrr_financed_cashflow}}
                 </div>
             </div>
         </div>

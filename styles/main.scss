@@ -1,17 +1,44 @@
 /******* COLOR VARIABLES *********/
 
 $base-text: #444444;            /* salmon */
+$bc: #F5F5F5; /*background-color*/
+$tablebc: white; /*table background color */
+$ff: 'Open Sans', sans-serif;
+$alternative_ff: 'Roboto Condensed', sans-serif;
+$gray_color: rgba(0, 0, 0, .4);
+
 
 
 body {
     color: $base-text;
+    font-family: $ff;
     }
 
+.number {
+    font-family: $alternative_ff;
+    }
+
+.title-table {
+    font-size: 18px;
+}
+
+.large-content-table {
+    font-size: 14px;
+}
+
+.medium-content-table {
+    font-size: 12px;
+}
+
+.small-content-table {
+    font-size: 11px;
+}
+
 .middle {
-    background-color: pink;
+    background-color: $bc;
 
     .table-container {
-        background-color: white;
+        background-color: $bc;
         width: 600px;
         margin: 0 auto;
         padding: 64px 0 0 0;
@@ -22,33 +49,63 @@ body {
             display: flex;
             border-style: solid;
             border-width: 0 1px 1px 1px;
-            border-color: black;
+            border-color: $gray_color;
 
             .column-one {
-                flex-basis: 40%;
+                flex-basis: 46%;
+                display: flex;
+                background-color: $tablebc;
 
-                img {
+                .property_thumbnail {
+                    width: 64px;
                     height: 64px;
-                    }
+                    background-size: cover;
+                    background-position: center center;
+                    margin: 0 8px 0 0;
+                 }
+
+                 .property-info-main {
+                    display: block;
+                    float: none;
+                    text-transform: capitalize;
+                 }
             }
 
             .column-two {
-                flex-basis: 20%;
+                flex-basis: 18%;
+                background-color: $tablebc;
             }
 
             .column-three {
-                flex-basis: 20%;
+                flex-basis: 18%;
+                background-color: $tablebc;
             }
 
             .column-four {
-                flex-basis: 20%;
+                flex-basis: 18%;
+                background-color: $tablebc;
             }
         }
 
         .title-of-table {
             border-style: solid;
             border-width: 0 0 1px 0;
+            border-color: $gray_color;
             height: auto;
+            background-color: $bc;
+
+            .column-one {
+                background-color: $bc;
+            }
+            .column-two {
+                background-color: $bc;
+            }
+            .column-three {
+                background-color: $bc;
+            }
+            .column-four {
+                background-color: $bc;
+            }
         }
     }
 }

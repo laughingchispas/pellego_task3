@@ -1,12 +1,30 @@
 /******* COLOR VARIABLES *********/
 /* salmon */
+/*background-color*/
+/*table background color */
 body {
-  color: #444444; }
+  color: #444444;
+  font-family: "Open Sans", sans-serif; }
+
+.number {
+  font-family: "Roboto Condensed", sans-serif; }
+
+.title-table {
+  font-size: 18px; }
+
+.large-content-table {
+  font-size: 14px; }
+
+.medium-content-table {
+  font-size: 12px; }
+
+.small-content-table {
+  font-size: 11px; }
 
 .middle {
-  background-color: pink; }
+  background-color: #F5F5F5; }
   .middle .table-container {
-    background-color: white;
+    background-color: #F5F5F5;
     width: 600px;
     margin: 0 auto;
     padding: 64px 0 0 0;
@@ -16,20 +34,43 @@ body {
       display: flex;
       border-style: solid;
       border-width: 0 1px 1px 1px;
-      border-color: black; }
+      border-color: rgba(0, 0, 0, 0.4); }
       .middle .table-container .row-in-table .column-one {
-        flex-basis: 40%; }
-        .middle .table-container .row-in-table .column-one img {
-          height: 64px; }
+        flex-basis: 46%;
+        display: flex;
+        background-color: white; }
+        .middle .table-container .row-in-table .column-one .property_thumbnail {
+          width: 64px;
+          height: 64px;
+          background-size: cover;
+          background-position: center center;
+          margin: 0 8px 0 0; }
+        .middle .table-container .row-in-table .column-one .property-info-main {
+          display: block;
+          float: none;
+          text-transform: capitalize; }
       .middle .table-container .row-in-table .column-two {
-        flex-basis: 20%; }
+        flex-basis: 18%;
+        background-color: white; }
       .middle .table-container .row-in-table .column-three {
-        flex-basis: 20%; }
+        flex-basis: 18%;
+        background-color: white; }
       .middle .table-container .row-in-table .column-four {
-        flex-basis: 20%; }
+        flex-basis: 18%;
+        background-color: white; }
     .middle .table-container .title-of-table {
       border-style: solid;
       border-width: 0 0 1px 0;
-      height: auto; }
+      border-color: rgba(0, 0, 0, 0.4);
+      height: auto;
+      background-color: #F5F5F5; }
+      .middle .table-container .title-of-table .column-one {
+        background-color: #F5F5F5; }
+      .middle .table-container .title-of-table .column-two {
+        background-color: #F5F5F5; }
+      .middle .table-container .title-of-table .column-three {
+        background-color: #F5F5F5; }
+      .middle .table-container .title-of-table .column-four {
+        background-color: #F5F5F5; }
 
 /*# sourceMappingURL=main.css.map */
