@@ -34,6 +34,11 @@ body {
     font-size: 11px;
 }
 
+.own-line {
+     display: flex;
+     align-items: baseline;
+     }
+
 .middle {
     background-color: $bc;
 
@@ -41,7 +46,7 @@ body {
         background-color: $bc;
         width: 600px;
         margin: 0 auto;
-        padding: 64px 0 0 0;
+        padding: 64px 0 64px 0;
         text-align: left;
 
         .row-in-table {
@@ -52,7 +57,7 @@ body {
             border-color: $gray_color;
 
             .column-one {
-                flex-basis: 46%;
+                flex-basis: 47%;
                 display: flex;
                 background-color: $tablebc;
 
@@ -64,26 +69,35 @@ body {
                     margin: 0 8px 0 0;
                  }
 
-                 .property-info-main {
+                .property-info-main {
                     display: block;
                     float: none;
                     text-transform: capitalize;
-                 }
+                    padding: 16px 0 0 0;
+
+                    .large-content-table {
+                         padding: 0 6px 0 0;
+                         }
+                     }
+
             }
 
             .column-two {
-                flex-basis: 18%;
+                flex-basis: 17%;
                 background-color: $tablebc;
+                padding: 16px 0 0 16px;
             }
 
             .column-three {
-                flex-basis: 18%;
+                flex-basis: 17%;
                 background-color: $tablebc;
+                padding: 16px 0 0 16px;
             }
 
             .column-four {
-                flex-basis: 18%;
+                flex-basis: 17%;
                 background-color: $tablebc;
+                padding: 16px 0 0 16px;
             }
         }
 
@@ -93,9 +107,12 @@ body {
             border-color: $gray_color;
             height: auto;
             background-color: $bc;
+            align-items: baseline;
 
             .column-one {
                 background-color: $bc;
+                padding: 0;
+                margin: 0;
             }
             .column-two {
                 background-color: $bc;
@@ -109,3 +126,12 @@ body {
         }
     }
 }
+
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 960px) {}
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (min-width: 1920px){}

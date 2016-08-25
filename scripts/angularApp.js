@@ -9,18 +9,13 @@ myApp.controller('taskThreeController', function($scope, $http) {
     $scope.listings = [];
         $http.get('json/listings.json')
            .then(function(response){
-                   $scope.listings = response.data;
+               $scope.listings = response.data;
 
-
-                   console.log("yo");
-
-                   angular.forEach($scope.listings, function(listings){
-                           angular.forEach(listings, function(financials){
-                                console.log("yo");
-                                console.log(financials.brrr_financed_cashflow);
-                           });
-
-                          });
+               angular.forEach($scope.listings, function(listings){
+                   angular.forEach(listings, function(financials){
+                        console.log(financials.brrr_financed_cashflow);
+                   });
+              });
         });
 
 
@@ -32,7 +27,7 @@ myApp.controller('taskThreeController', function($scope, $http) {
 
     var number = 3500;
 
-    console.log(number.toLocaleString());
+    console.log(number.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' }));
 
     /*function modifyFinancials() {
             angular.forEach($scope.listings.financials, function(value,key) {

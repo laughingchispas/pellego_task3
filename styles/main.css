@@ -21,13 +21,17 @@ body {
 .small-content-table {
   font-size: 11px; }
 
+.own-line {
+  display: flex;
+  align-items: baseline; }
+
 .middle {
   background-color: #F5F5F5; }
   .middle .table-container {
     background-color: #F5F5F5;
     width: 600px;
     margin: 0 auto;
-    padding: 64px 0 0 0;
+    padding: 64px 0 64px 0;
     text-align: left; }
     .middle .table-container .row-in-table {
       height: 64px;
@@ -36,7 +40,7 @@ body {
       border-width: 0 1px 1px 1px;
       border-color: rgba(0, 0, 0, 0.4); }
       .middle .table-container .row-in-table .column-one {
-        flex-basis: 46%;
+        flex-basis: 47%;
         display: flex;
         background-color: white; }
         .middle .table-container .row-in-table .column-one .property_thumbnail {
@@ -48,24 +52,33 @@ body {
         .middle .table-container .row-in-table .column-one .property-info-main {
           display: block;
           float: none;
-          text-transform: capitalize; }
+          text-transform: capitalize;
+          padding: 16px 0 0 0; }
+          .middle .table-container .row-in-table .column-one .property-info-main .large-content-table {
+            padding: 0 6px 0 0; }
       .middle .table-container .row-in-table .column-two {
-        flex-basis: 18%;
-        background-color: white; }
+        flex-basis: 17%;
+        background-color: white;
+        padding: 16px 0 0 16px; }
       .middle .table-container .row-in-table .column-three {
-        flex-basis: 18%;
-        background-color: white; }
+        flex-basis: 17%;
+        background-color: white;
+        padding: 16px 0 0 16px; }
       .middle .table-container .row-in-table .column-four {
-        flex-basis: 18%;
-        background-color: white; }
+        flex-basis: 17%;
+        background-color: white;
+        padding: 16px 0 0 16px; }
     .middle .table-container .title-of-table {
       border-style: solid;
       border-width: 0 0 1px 0;
       border-color: rgba(0, 0, 0, 0.4);
       height: auto;
-      background-color: #F5F5F5; }
+      background-color: #F5F5F5;
+      align-items: baseline; }
       .middle .table-container .title-of-table .column-one {
-        background-color: #F5F5F5; }
+        background-color: #F5F5F5;
+        padding: 0;
+        margin: 0; }
       .middle .table-container .title-of-table .column-two {
         background-color: #F5F5F5; }
       .middle .table-container .title-of-table .column-three {

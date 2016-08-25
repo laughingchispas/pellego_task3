@@ -35,13 +35,13 @@
             <div class="column-one title-table">
                 Updated {{update_date}}
             </div>
-            <div class="column-two large-content-table">
+            <div class="column-two large-content-table medium-content-table">
                 Flip Profit
             </div>
-            <div class="column-three large-content-table">
+            <div class="column-three large-content-table medium-content-table">
                 Rental As-Is
             </div>
-            <div class="column-four large-content-table">
+            <div class="column-four large-content-table medium-content-table">
                 Rental w/ Rehab
             </div>
         </div>
@@ -52,19 +52,32 @@
                     </div>
                     <div class="property-info-main">
                         <div class="title-table"> {{listing.name}} </div>
-                        <div class="large-content-table number">$ {{listing.listing.listing_price}} </div>
-                        <div class="medium-content-table">{{listing.listing.update_reason}}</div>
+                        <div class="own-line">
+                            <div class="large-content-table number">${{listing.listing.listing_price}} </div>
+                            <div class="medium-content-table">{{listing.listing.update_reason}}</div>
+                        </div>
                     </div>
                 </div>
                 <div class="column-two">
-                    <div class="number title-table">$ {{listing.financials[strategy]}} </div>
+                    <div class="number title-table">${{listing.financials[strategy]}} </div>
+                    <div class="own-line">
+                        <div class="large-content-table number">what</div>
+                        <div class="small-content-table number">else?</div>
+                    </div>
                 </div>
                 <div class="column-three">
-                    <div class="number title-table">$ {{listing.financials.hold_financed_cashflow}} </div>
+                    <div class="number title-table">${{listing.financials.hold_financed_cashflow}} </div>
+                    <div class="own-line">
+                        <div class="large-content-table number">what</div>
+                        <div class="small-content-table number">else?</div>
+                    </div>
                 </div>
                 <div class="column-four">
-                    <div class="number title-table">$ {{listing.financials.brrr_financed_cashflow}} </div>
-                    {{whatever.brrr_financed_cashflow}}
+                    <div class="number title-table">${{listing.financials.brrr_financed_cashflow}} </div>
+                    <div class="own-line">
+                        <div class="large-content-table number">what</div>
+                        <div class="small-content-table number">else?</div>
+                    </div>
                 </div>
             </div>
         </div>
