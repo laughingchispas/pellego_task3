@@ -53,27 +53,27 @@
                     <div class="property-info-main">
                         <div class="title-table"> {{listing.name}} </div>
                         <div class="own-line">
-                            <div class="large-content-table number">${{listing.listing.listing_price}} </div>
+                            <div class="large-content-table number">{{listing.listing.listing_price | currency:"$":0}} </div>
                             <div class="medium-content-table">{{listing.listing.update_reason}}</div>
                         </div>
                     </div>
                 </div>
                 <div class="column-two">
-                    <div class="number title-table">${{listing.financials[strategy]}} </div>
+                    <div class="number title-table">{{listing.financials.hold_financed_cashin_net | currency:"$":0}} </div>
                     <div class="own-line">
                         <div class="large-content-table number">what</div>
                         <div class="small-content-table number">else?</div>
                     </div>
                 </div>
                 <div class="column-three">
-                    <div class="number title-table">${{listing.financials.hold_financed_cashflow}} </div>
+                    <div class="number title-table">{{listing.financials.hold_financed_cashflow | currency:"$":0}} </div>
                     <div class="own-line">
                         <div class="large-content-table number">what</div>
                         <div class="small-content-table number">else?</div>
                     </div>
                 </div>
                 <div class="column-four">
-                    <div class="number title-table">${{listing.financials.brrr_financed_cashflow}} </div>
+                    <div class="number title-table">{{listing.financials.brrr_financed_cashflow | currency:"$":0}} </div>
                     <div class="own-line">
                         <div class="large-content-table number">what</div>
                         <div class="small-content-table number">else?</div>

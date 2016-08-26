@@ -1,33 +1,46 @@
 var myApp = angular.module('angularApp', []);
 
-myApp.controller('taskThreeController', function($scope, $http) {
+myApp.controller('taskThreeController', function($scope, $http, $interpolate) {
 
 
     $scope.update_date =
         'July 25';
 
+    $scope.currency =
+            '$';
+
+
+    $scope.strategy =
+                'financed';
+
+              //  $scope.name = 'John';
+               // $scope.message = $interpolate('Hello {{name}}')($scope);
+
     $scope.listings = [];
-        $http.get('json/listings.json')
-           .then(function(response){
-               $scope.listings = response.data;
+    $http.get('json/listings.json')
+               .then(function(response){
+                   $scope.listings = response.data;
+                   changeReason();
 
-               angular.forEach($scope.listings, function(listings){
-                   angular.forEach(listings, function(financials){
-                        console.log(financials.brrr_financed_cashflow);
-                   });
-              });
-        });
+               });
+
+    function changeReason(){
+       angular.forEach($scope.listings, function(value,key) {
+            if (value.listing.update_reason == 'Listed') {
+                     console.log("New " + value.listing.update_reason);
+                     value.update_reason.push("New " + $scope.listings.listing.update_reason);
+                     console.log($scope.listings.listing.update_reason);
+                     }
+            else {
+                value.listing.update_reason == value.listing.update_reason;
+                console.log("not" + value.listing.update_reason);
+            }
 
 
-
+           });
+    };
 
     //make function that exports either 'financed' or 'cash' key to $scope.strategy
-
-    $scope.strategy = 'flip_financed_profit';
-
-    var number = 3500;
-
-    console.log(number.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' }));
 
     /*function modifyFinancials() {
             angular.forEach($scope.listings.financials, function(value,key) {
