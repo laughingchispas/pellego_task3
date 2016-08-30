@@ -6,6 +6,10 @@ $tablebc: white; /*table background color */
 $ff: 'Open Sans', sans-serif;
 $alternative_ff: 'Roboto Condensed', sans-serif;
 $gray_color: rgba(0, 0, 0, .4);
+$top-padding-column-one-sml: 10px 0 0 0;
+$padding-other-columns-sml: 10px 0 0 8px;
+$top-padding-column-one: 16px 0 0 0;
+$padding-other-columns: 18px 0 0 16px;
 
 
 
@@ -19,32 +23,28 @@ body {
     }
 
 .title-table {
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .large-content-table {
-    font-size: 14px;
-}
-
-.medium-content-table {
     font-size: 12px;
 }
 
-.small-content-table {
+.medium-content-table {
     font-size: 11px;
 }
 
-.own-line {
-     display: flex;
-     align-items: baseline;
-     }
+.small-content-table {
+    font-size: 10px;
+}
+
 
 .middle {
     background-color: $bc;
 
     .table-container {
         background-color: $bc;
-        width: 600px;
+        width: 400px;
         margin: 0 auto;
         padding: 64px 0 64px 0;
         text-align: left;
@@ -57,7 +57,7 @@ body {
             border-color: $gray_color;
 
             .column-one {
-                flex-basis: 47%;
+                flex-basis: 53%;
                 display: flex;
                 background-color: $tablebc;
 
@@ -73,7 +73,7 @@ body {
                     display: block;
                     float: none;
                     text-transform: capitalize;
-                    padding: 16px 0 0 0;
+                    padding: $top-padding-column-one-sml;
 
                     .large-content-table {
                          padding: 0 6px 0 0;
@@ -83,21 +83,21 @@ body {
             }
 
             .column-two {
-                flex-basis: 17%;
+                flex-basis: 14%;
                 background-color: $tablebc;
-                padding: 16px 0 0 16px;
+                padding: $padding-other-columns-sml;
             }
 
             .column-three {
-                flex-basis: 17%;
+                flex-basis: 14%;
                 background-color: $tablebc;
-                padding: 16px 0 0 16px;
+                padding: $padding-other-columns-sml;
             }
 
             .column-four {
-                flex-basis: 17%;
+                flex-basis: 14%;
                 background-color: $tablebc;
-                padding: 16px 0 0 16px;
+                padding: $padding-other-columns-sml;
             }
         }
 
@@ -128,7 +128,62 @@ body {
 }
 
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+.middle {
+    .table-container {
+        width: 600px;
+
+        .row-in-table {
+             .column-one {
+               flex-basis: 47%;
+
+               .property-info-main {
+                   padding: $top-padding-column-one;
+               }
+             }
+
+             .column-two {
+                padding: $padding-other-columns;
+                flex-basis: 17%;
+             }
+
+             .column-three {
+                padding: $padding-other-columns;
+                flex-basis: 17%;
+             }
+
+             .column-four {
+                padding: $padding-other-columns;
+                flex-basis: 17%;
+             }
+        }
+
+    }
+}
+
+.title-table {
+    font-size: 18px;
+}
+
+.large-content-table {
+    font-size: 14px;
+}
+
+.medium-content-table {
+    font-size: 12px;
+}
+
+.small-content-table {
+    font-size: 11px;
+}
+
+.own-line {
+     display: flex;
+     align-items: baseline;
+     }
+
+}
 
 @media only screen and (min-width: 960px) {}
 
