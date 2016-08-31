@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html ng-app="angularAppRethinking">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>pellego task 4</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/rethink.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/rethinking.js"></script>
+</head>
+
+<body ng-controller="taskThreeControllerRethinking">
+
+
+
+
+<div class="rethink-middle">
+    <div class="rethink-middle-left">
+       <div class="property_thumbnail" ng-style="{'background-image': 'url(' + listing.thumbnail_url + ')'}" ng-repeat="listing in listings">
+           <div class="property-thumbnail-description">
+               <div class="title-size-pics left-margin"> {{listing.neighborhood}}</div>
+               <div class="small-content-table left-margin">{{listing.listing.update_date}}</div>
+           </div>
+        </div>
+    </div>
+    <div class="rethink-middle-right">
+        <div class="rethink-right-row-one">
+            <div class="property_thumbnail" ng-style="{'background-image': 'url(' + listings[0].thumbnail_url + ')'}">
+            </div>
+            <div class="rethink-right-first-row-descr">
+                <div class="large-content-table">{{listings[0].name}}</div>
+                <div class="medium-content-table">
+                    {{listings[0].city}}, WA
+                </div>
+                <div class="medium-content-table">
+                    {{houseSpecs.rooms}} bd /
+                    {{houseSpecs.bath}} ba /
+                    {{houseSpecs.surfaceArea}} ft2
+                </div>
+                <div class="medium-content-table">
+                    <span class="number">{{listings[0].financials.flip_cash_profit | currency:"$":0}}</span> Capital Investment
+                    <span class="number">{{listings[0].financials.flip_cash_profit | currency:"$":0}}</span> Net Cash In
+                </div>
+            </div>
+
+        </div>
+        <div class="rethink-right-row-two">
+                <div class="section-columns left-margin">
+                    <span class="large-content-table"><span class="number">{{listings[0].financials.flip_cash_profit | currency:"$":0}}</span></span>
+                            <span class="medium-content-table left-margin">profit</span>
+                    </br>
+                    <span class="title-size-pics"></span><span class="title-size-pics">ROI</span>
+                </div>
+                <div class="section-columns left-margin" id="middle-column">{{listings[0].name}}
+                    </br><span class="title-size-pics"></span><span class="title-size-pics">Cap Rate</span>
+                </div>
+                <div class="section-columns left-margin">{{listings[0].name}}
+                    </br><span class="title-size-pics"></span><span class="title-size-pics">Cap Rate</span>
+                </div>
+        </div>
+        <div class="rethink-right-row-three medium-content-table">
+            <div>Listing Price: <span class="number">{{listings[0].listing.listing_price | currency:"$":0}}</span></div>
+            <div>Listing Date: {{listings[0].listing.listing_date}}</div>
+            <div>Listing Type: {{listings[0].listing.listing_type}}</div>
+            <div class="justify">Our musical questioning concerns how strings with the strength of thediom, can find a place in today’s musical landscape. Our musical questioning concerns how strings with the strength of their traditional roots in the western classical idiom, can find a place in today’s musical landscape. </div>
+            <div class="bottom-of-the-middle-right">
+                <div><b>Delete</b></div>
+                <div class="blue-text"><b>Open Deal</b></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--
+
+                    <div class="property-info-main">
+                        <div class="title-table"> {{listing.name}}</div>
+                        <div class="own-line">
+                            <div class="large-content-table number">{{listing.listing.listing_price | currency:"$":0}} </div>
+                            <div class="medium-content-table">{{listing.listing.update_reason}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-two">
+                    <div class="number title-table">{{listing.financials.hold_strategy_cashin_net | currency:"$":0}} </div>
+                    <div class="own-line">
+                        <div class="large-content-table number">what</div>
+                        <div class="small-content-table number">else?</div>
+                    </div>
+                </div>
+                <div class="column-three">
+                    <div class="number title-table">{{listing.financials.hold_strategy_cashflow | currency:"$":0}} </div>
+                    <div class="own-line">
+                        <div class="large-content-table number">what</div>
+                        <div class="small-content-table number">else?</div>
+                    </div>
+                </div>
+                <div class="column-four">
+                    <div class="number title-table">{{listing.financials.brrr_strategy_cashflow | currency:"$":0}} </div>
+                    <div class="own-line">
+                        <div class="large-content-table number">what</div>
+                        <div class="small-content-table number">else?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+/******* COLOR VARIABLES *********/
+/* salmon */
+/*background-color*/
+/*table background color */
+body {
+  color: #444444;
+  font-family: "Open Sans", sans-serif; }
+
+.number {
+  font-family: "Roboto Condensed", sans-serif; }
+
+.left-margin {
+  padding: 0 0 0 3px; }
+
+.title-size-pics {
+  font-size: 14px; }
+
+.large-content-table {
+  font-size: 18px; }
+
+.medium-content-table {
+  font-size: 12px; }
+
+.small-content-table {
+  font-size: 10px; }
+
+.blue-text {
+  color: #2196F3; }
+
+.justify {
+  text-align: justify; }
+
+.rethink-middle {
+  width: 656px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  padding: 30px 0 0 0; }
+  .rethink-middle .rethink-middle-left {
+    width: 339px;
+    height: 336px;
+    padding: 0 15px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize; }
+    .rethink-middle .rethink-middle-left .property_thumbnail {
+      width: 112px;
+      height: 112px;
+      background-size: cover;
+      background-position: center center;
+      margin: 0 1px 1px 0;
+      background-image: url("../assets/clara.jpg");
+      position: relative; }
+      .rethink-middle .rethink-middle-left .property_thumbnail .property-thumbnail-description {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        height: 32px; }
+  .rethink-middle .rethink-middle-right {
+    width: 300px;
+    height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: #F5F5F5; }
+    .rethink-middle .rethink-middle-right .rethink-right-row-one {
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      border-color: rgba(0, 0, 0, 0.4);
+      display: flex; }
+      .rethink-middle .rethink-middle-right .rethink-right-row-one .property_thumbnail {
+        width: 130px;
+        height: 112px;
+        background-size: cover;
+        background-position: center center;
+        margin: 0 1px 1px 0;
+        position: relative;
+        margin: 0 10px 0 0; }
+      .rethink-middle .rethink-middle-right .rethink-right-row-one .rethink-right-first-row-descr .large-content-table {
+        text-transform: capitalize; }
+    .rethink-middle .rethink-middle-right .rethink-right-row-two {
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      border-color: rgba(0, 0, 0, 0.4);
+      display: flex; }
+      .rethink-middle .rethink-middle-right .rethink-right-row-two .section-columns {
+        flex-basis: 33.33%; }
+      .rethink-middle .rethink-middle-right .rethink-right-row-two #middle-column {
+        border-style: solid;
+        border-width: 0 1px 0 1px;
+        border-color: rgba(0, 0, 0, 0.4); }
+    .rethink-middle .rethink-middle-right .rethink-right-row-three {
+      padding: 10px; }
+      .rethink-middle .rethink-middle-right .rethink-right-row-three .justify {
+        padding: 5px 0 0 0; }
+      .rethink-middle .rethink-middle-right .rethink-right-row-three .bottom-of-the-middle-right {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0 0 0;
+        text-transform: uppercase; }
+
+/*# sourceMappingURL=rethink.css.map */

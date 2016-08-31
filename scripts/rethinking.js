@@ -1,17 +1,16 @@
-var myApp = angular.module('angularApp', []);
+var myApp = angular.module('angularAppRethinking', []);
 
-myApp.controller('taskThreeController', function($scope, $http) {
-
-
-    $scope.update_date =
-        'July 25';
-
-    $scope.currency =
-            '$';
-
+myApp.controller('taskThreeControllerRethinking', function($scope, $http) {
 
     $scope.strategy =
                 'financed';
+
+    $scope.houseSpecs = {
+            rooms: 3,
+            bath: 2,
+            surfaceArea: 1772
+    };
+
 
               //  $scope.name = 'John';
                // $scope.message = $interpolate('Hello {{name}}')($scope);
@@ -29,7 +28,6 @@ myApp.controller('taskThreeController', function($scope, $http) {
                     }
                     else {}
                  });
-
 
                  $scope.listings = response.data;
                });
